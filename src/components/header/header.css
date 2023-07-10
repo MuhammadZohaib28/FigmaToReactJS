@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20rem;
+    /* border: 1px solid red; */
+    margin: 0.4rem auto;
+}
+
+.headerLogo{
+    height: 3rem;
+}
+
+.headerItems{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.headerButton{
+    background-color: rgb(247, 57, 57);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    width: 5rem;
+    border: none;
+    border-radius: 0.1rem;
+}
+
+.headerItems{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.headerItem{
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+}
