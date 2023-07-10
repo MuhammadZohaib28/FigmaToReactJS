@@ -16,8 +16,24 @@
 
 .mainSectionImageContainer{
     /* border: 1px solid red; */
-    margin-top: 2rem;
+    margin-top: 0.5rem;
+    animation: footAnimation 6s infinite;
+
 }
+
+@keyframes footAnimation {
+    0% {
+      /* transform: rotateX(40deg); */
+      transform: rotate(360deg);
+    }
+    50% {
+      transform: rotate(0);
+    }
+    100% {
+      /* transform: translateX(0); */
+      transform: rotate(360deg);
+    }
+  }
 .mainSectionHeadingContainer {
   /* border: 1px solid rebeccapurple; */
   width: 50%;
